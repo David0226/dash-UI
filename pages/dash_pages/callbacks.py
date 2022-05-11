@@ -440,7 +440,7 @@ def dash_plot2_render(ts,compare_ts, data, compare_data ):
                                   line=dict(width=1
                                         #    , color='DarkSlateGrey'
                                            )
-                                 ),
+                                 ),  
                      selector=dict(mode='markers'))               
 
     fig.update_traces(mode="lines")           
